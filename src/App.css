@@ -1,0 +1,44 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+/* Set sections to take full width */
+.home,
+.about-section,
+.portfolios-section,
+.footer-section {
+  width: 100%; /* Ensure sections take full width */
+  padding: 2rem; /* Maintain padding for content */
+  text-align: center;
+  box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.portfolio-card {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
